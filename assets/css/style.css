@@ -1,0 +1,42 @@
+body {
+    background-image: url("../images/onePiece.png");
+    background-color: #cccccc;
+}
+
+.container {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.character-img {
+    position: relative;
+}
+
+.character-name {
+    z-index: 2;
+    height: 1.5em;
+    position: absolute;
+    top: 65%;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.title-decoration {
+    font-family: 'Goblin One', cursive;
+    font-weight: bold;
+}
+
+.header-decoration {
+    font-family: 'Oswald', sans-serif;
+    border-bottom: medium gold solid;
+}
+
+.content-decoration {
+    font-family: 'Martel', serif;
+}
+
+.character-name-decoration {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.25em;
+}
